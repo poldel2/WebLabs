@@ -1,0 +1,72 @@
+.Information{
+    background-color: white;
+    margin:10px auto 5px;
+    margin-top: 0%;
+    font-size: 25px;
+    min-height: 100vh;
+    max-width: 60%;
+    background-color: white;
+    flex: 1; /* Занимаем все доступное пространство */
+}
+
+.header {
+    text-align: center;
+    line-height: 100px;
+}
+
+.Information label {
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+#name {
+    margin-left: 10%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  label[type="Answers"] {
+    font-weight : normal;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    margin-left: 8%;    
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-left: 8%;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff665c;
+  }
+
+  body {
+    min-height : 100%;
+  }

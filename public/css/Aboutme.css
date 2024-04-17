@@ -1,0 +1,24 @@
+.Information{
+    background-color: white;
+    margin:10px auto 5px;
+    margin-top: 0%;
+    font-size: 25px;
+    min-height: 100vh;
+    max-width: 60%;
+    background-color: white;
+    flex: 1; /* Занимаем все доступное пространство */
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header {
+    text-align: center;
+    line-height: 100px;
+}
+
+.Information p {
+    margin-left: 5%;
+}
+.Information h3 {
+    margin-left: 5%;
+}

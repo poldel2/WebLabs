@@ -1,0 +1,70 @@
+.Information{
+    background-color: white;
+    margin:10px auto 5px;
+    margin-top: 0%;
+    font-size: 25px;
+    min-height: 100%;
+    max-width: 60%;
+    background-color: white;
+    flex: 1; /* Занимаем все доступное пространство */
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+h1 {
+    margin-bottom : 50px;
+    text-align: center;
+}
+
+.Information h2 {
+    text-align: center;
+    margin-left:5%;
+}
+.Information p[type="Text"] {
+    font-size: 22px;
+    margin-left:8%;
+    line-height: 1.6;
+    margin-right:5%;
+}
+
+.links {
+    margin-left:5%;
+    position: fixed;
+    right: 0;
+    transform: translate(0, -50%);
+    /* Дополнительные стили для блока */
+    width: 200px;
+    min-height: 100px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.links li {
+    margin-top:10px;
+}
+.links ul {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.links p {
+    margin-bottom: 10px;
+}
+
+.links a {
+        color:#000080;
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-decoration: none;
+}
+
+.links {
+    text-align: right;
+    width: 18%;
+    margin-bottom: 20px;
+    margin-top: 15%;
+    float: right;
+}

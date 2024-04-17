@@ -1,0 +1,21 @@
+.Information{
+    background-color: white;
+    margin:0px auto 5px;
+    margin-top: 0%;
+    font-size: 25px;
+    text-align: center;
+    min-height: 100%;
+    max-width: 60%;
+    background-color: white;
+    flex: 1; /* Занимаем все доступное пространство */
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }

@@ -1,0 +1,44 @@
+/* GuestBook.css */
+
+/* General styling for the form and table */
+.Information {
+    background-color: white;
+    margin: 10px auto 5px;
+    margin-top: 0%;
+    font-size: 25px;
+    text-align: center;
+    min-height: 100vh;
+    max-width: 60%;
+    background-color: white;
+    flex: 1; /* Occupies all available space */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for a pop effect */
+    border-radius: 5px;
+    padding: 20px;
+    position: relative; /* Add position for absolute positioning of messages */
+}
+
+.Information .header h1 {
+    font-size: 24px;
+    color: #333; /* Darkened text color for better readability */
+    margin: 0;
+}
+
+.message {
+    position: fixed;
+    bottom: 10px; /* Adjusted to move message up */
+    right: 10px; /* Changed from left to right and adjusted value */
+    transform: none; /* Removed to avoid shifting the message */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px; /* Adjusted font size */
+}
+
+.success {
+    background-color: #4CAF50;
+}
+
+.error {
+    background-color: #f44336;
+}
